@@ -1,0 +1,29 @@
+.button {
+  background-color: bisque;
+  color: black;
+  cursor: pointer;
+  width: 75px;
+  margin-left: 30px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.button:hover {
+  transform: scale(1.2);
+}
+
+.container {
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.container ol {
+  text-align: left;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
